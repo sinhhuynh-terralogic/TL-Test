@@ -1,0 +1,86 @@
+{
+  "thumbnail": "https://wnow-modules.s3.amazonaws.com/icon_stroke_news_articlelist.svg",
+  "tag": "TL Test",
+  "affiliates": [
+    "wasdftv",
+    "kotv"
+  ],
+  "propTypes": {
+    "title": "PropTypes.string",
+    "titleColor": "PropTypes.string",
+    "backgroundColor": "PropTypes.string",
+    "showReadMore": "PropTypes.bool",
+    "categoryUrl": "PropTypes.string",
+    "startArticleIndex": "PropTypes.number",
+    "totalNumberOfItems": "PropTypes.number",
+    "layout": "PropTypes.string",
+    "showPagination": "PropTypes.bool",
+    "rowGridCount": "PropTypes.number.isRequired",
+    "heroPlacement": "PropTypes.string",
+    "heroCount": "PropTypes.number",
+    "columnGridCount": "PropTypes.number.isRequired",
+    "columnFirstGriffinCount": "PropTypes.number",
+    "columnSecondGriffinCount": "PropTypes.number",
+    "columnThirdGriffinCount": "PropTypes.number",
+    "textColor": "PropTypes.string",
+    "showTimestamp": "PropTypes.bool",
+    "padding": "PropTypes.number",
+    "showPill": "PropTypes.bool",
+    "videoIconPlacement": "PropTypes.string",
+    "timestampOptions": "PropTypes.object",
+    "titlePlacement": "PropTypes.object",
+    "expandBackground": "PropTypes.bool"
+  },
+  "defaultProps": {
+    "layout": "grid",
+    "startArticleIndex": 0,
+    "totalNumberOfItems": 7,
+    "heroPlacement": "top",
+    "heroCount": 1,
+    "rowGridCount": 1,
+    "columnGridCount": 1,
+    "columnFirstGriffinCount": 1,
+    "columnSecondGriffinCount": 1,
+    "columnThirdGriffinCount": 0,
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#FFFFFF",
+    "titleColor": "#313131",
+    "showPagination": false,
+    "showTimestamp": true,
+    "showReadMore": false,
+    "padding": 2,
+    "expandBackground": false,
+    "videoIconPlacement": "center",
+    "timestampOptions": {
+      "showElapsedTime": true,
+      "displayShortDateTime": true
+    },
+    "titlePlacement": {
+      "firstRow": "inner",
+      "secondRow": "outer",
+      "thirdRow": "outer"
+    }
+  },
+  "propChoices": {
+    "layout": [
+      "griffin",
+      "hero",
+      "list"
+    ],
+    "heroPlacement": [
+      "top",
+      "left"
+    ],
+    "titlePlacement": [
+      "inner",
+      "outer"
+    ]
+  },
+  "FRN_resourceEndpoints": [
+    {
+      "url": "",
+      "type": "json"
+    }
+  ],
+  "FRN_style": {}
+}
